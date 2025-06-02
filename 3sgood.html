@@ -1,0 +1,368 @@
+{\rtf1\ansi\ansicpg950\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red71\green138\blue206;
+\red141\green213\blue254;\red203\green203\blue202;\red109\green109\blue109;\red194\green125\blue100;\red212\green212\blue212;
+\red167\green197\blue151;\red112\green192\blue130;\red109\green115\blue120;\red184\green113\blue248;\red238\green46\blue55;
+\red245\green123\blue47;\red54\green192\blue160;}
+{\*\expandedcolortbl;;\cssrgb\c0\c1\c1;\cssrgb\c100000\c100000\c100000\c0;\cssrgb\c34146\c61677\c84338;
+\cssrgb\c61545\c86704\c99884;\cssrgb\c83320\c83320\c83112;\cssrgb\c50307\c50306\c50181;\cssrgb\c80772\c56796\c46790;\cssrgb\c86465\c86464\c86248;
+\cssrgb\c71035\c80830\c65726;\cssrgb\c50437\c78684\c58115;\cssrgb\c50336\c52696\c54531;\cssrgb\c77746\c54642\c98035;\cssrgb\c95666\c27714\c27475;
+\cssrgb\c97756\c56070\c23668;\cssrgb\c23989\c78963\c69075;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww12720\viewh7240\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec4 <!DOCTYPE\cf2 \strokec5  html\cf2 \strokec4 >\cf2 \strokec6 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \strokec7 <\cf2 \strokec4 html\cf2 \strokec6  \cf2 \strokec5 lang\cf2 \strokec7 =\cf2 \strokec8 "zh-Hant"\cf2 \strokec7 >\cf2 \strokec6 \
+\cf2 \strokec7 <\cf2 \strokec4 head\cf2 \strokec7 >\cf2 \strokec6 \
+    \cf2 \strokec7 <\cf2 \strokec4 meta\cf2 \strokec6  \cf2 \strokec5 charset\cf2 \strokec7 =\cf2 \strokec8 "UTF-8"\cf2 \strokec7 >\cf2 \strokec6 \
+    \cf2 \strokec7 <\cf2 \strokec4 meta\cf2 \strokec6  \cf2 \strokec5 name\cf2 \strokec7 =\cf2 \strokec8 "viewport"\cf2 \strokec6  \cf2 \strokec5 content\cf2 \strokec7 =\cf2 \strokec8 "width=device-width, initial-scale=1.0"\cf2 \strokec7 >\cf2 \strokec6 \
+    \cf2 \strokec7 <\cf2 \strokec4 title\cf2 \strokec7 >\cf2 \strokec6 Gloria\uc0\u32769 \u24107 \u32102 \u30050 \u26989 \u29983 \u30340 \u31069 \u31119 \cf2 \strokec7 </\cf2 \strokec4 title\cf2 \strokec7 >\cf2 \strokec6 \
+    \cf2 \strokec7 <\cf2 \strokec4 script\cf2 \strokec6  \cf2 \strokec5 src\cf2 \strokec7 =\cf2 \strokec8 "https://cdn.tailwindcss.com"\cf2 \strokec7 ></\cf2 \strokec4 script\cf2 \strokec7 >\cf2 \strokec6 \
+    \cf2 \strokec7 <\cf2 \strokec4 style\cf2 \strokec7 >\cf2 \strokec6 \
+        \cf2 \strokec4 .text-shadow-custom\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+            \cf2 \strokec5 text-shadow:\cf2 \strokec6  \cf2 \strokec10 2px\cf2 \strokec6  \cf2 \strokec10 2px\cf2 \strokec6  \cf2 \strokec10 4px\cf2 \strokec6  \cf2 \strokec8 rgba(\cf2 \strokec10 0\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec10 0\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec10 0\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec10 0.3\cf2 \strokec8 )\cf2 \strokec9 ;\cf2 \strokec6 \
+        \cf2 \strokec9 \}\cf2 \strokec6 \
+        \cf2 \strokec4 #wheelCanvas\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+            \cf2 \strokec5 display:\cf2 \strokec6  \cf2 \strokec8 block\cf2 \strokec9 ;\cf2 \strokec6 \
+        \cf2 \strokec9 \}\cf2 \strokec6 \
+        \cf2 \strokec4 body\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+            \cf2 \strokec5 font-family:\cf2 \strokec6  \cf2 \strokec11 'Inter'\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec8 sans-serif\cf2 \strokec9 ;\cf2 \strokec6 \
+        \cf2 \strokec9 \}\cf2 \strokec6 \
+        \cf2 \strokec4 .spinner\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+            \cf2 \strokec5 border:\cf2 \strokec6  \cf2 \strokec10 4px\cf2 \strokec6  \cf2 \strokec8 solid\cf2 \strokec6  \cf2 \strokec8 rgba(\cf2 \strokec10 0\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec10 0\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec10 0\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec10 .1\cf2 \strokec8 )\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec5 width:\cf2 \strokec6  \cf2 \strokec10 24px\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec5 height:\cf2 \strokec6  \cf2 \strokec10 24px\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec5 border-radius:\cf2 \strokec6  \cf2 \strokec10 50%\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec5 border-left-color:\cf2 \strokec6  #9333ea\cf2 \strokec9 ;\cf2 \strokec6  \cf2 \strokec12 /* purple-500 for analyzer */\cf2 \strokec6 \
+            \cf2 \strokec5 animation:\cf2 \strokec6  \cf2 \strokec8 spin\cf2 \strokec6  \cf2 \strokec10 1s\cf2 \strokec6  \cf2 \strokec8 ease\cf2 \strokec6  \cf2 \strokec8 infinite\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec5 display:\cf2 \strokec6  \cf2 \strokec8 inline-block\cf2 \strokec9 ;\cf2 \strokec6 \
+        \cf2 \strokec9 \}\cf2 \strokec6 \
+        \cf2 \strokec13 @keyframes\cf2 \strokec6  \cf2 \strokec8 spin\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+            \cf2 \strokec10 0%\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec5 transform:\cf2 \strokec6  \cf2 \strokec8 rotate(\cf2 \strokec10 0deg\cf2 \strokec8 )\cf2 \strokec9 ;\cf2 \strokec6  \cf2 \strokec9 \}\cf2 \strokec6 \
+            \cf2 \strokec10 100%\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec5 transform:\cf2 \strokec6  \cf2 \strokec8 rotate(\cf2 \strokec10 360deg\cf2 \strokec8 )\cf2 \strokec9 ;\cf2 \strokec6  \cf2 \strokec9 \}\cf2 \strokec6 \
+        \cf2 \strokec9 \}\cf2 \strokec6 \
+        \cf2 \strokec4 .modal\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+            \cf2 \strokec5 position:\cf2 \strokec6  \cf2 \strokec8 fixed\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec5 left:\cf2 \strokec6  \cf2 \strokec10 0\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec5 top:\cf2 \strokec6  \cf2 \strokec10 0\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec5 width:\cf2 \strokec6  \cf2 \strokec10 100%\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec5 height:\cf2 \strokec6  \cf2 \strokec10 100%\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec5 background-color:\cf2 \strokec6  \cf2 \strokec8 rgba(\cf2 \strokec10 0\cf2 \strokec9 ,\cf2 \strokec10 0\cf2 \strokec9 ,\cf2 \strokec10 0\cf2 \strokec9 ,\cf2 \strokec10 0.5\cf2 \strokec8 )\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec5 display:\cf2 \strokec6  \cf2 \strokec8 flex\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec5 justify-content:\cf2 \strokec6  \cf2 \strokec8 center\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec5 align-items:\cf2 \strokec6  \cf2 \strokec8 center\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec5 z-index:\cf2 \strokec6  \cf2 \strokec10 1000\cf2 \strokec9 ;\cf2 \strokec6  \cf2 \strokec12 /* Ensure modal is on top */\cf2 \strokec6 \
+        \cf2 \strokec9 \}\cf2 \strokec6 \
+        \cf2 \strokec4 .modal-content\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+            \cf2 \strokec5 background-color:\cf2 \strokec6  \cf2 \strokec8 white\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec5 padding:\cf2 \strokec6  \cf2 \strokec10 20px\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec5 border-radius:\cf2 \strokec6  \cf2 \strokec10 8px\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec5 width:\cf2 \strokec6  \cf2 \strokec10 90%\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec5 max-width:\cf2 \strokec6  \cf2 \strokec10 500px\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec5 box-shadow:\cf2 \strokec6  \cf2 \strokec10 0\cf2 \strokec6  \cf2 \strokec10 4px\cf2 \strokec6  \cf2 \strokec10 6px\cf2 \strokec6  \cf2 \strokec8 rgba(\cf2 \strokec10 0\cf2 \strokec9 ,\cf2 \strokec10 0\cf2 \strokec9 ,\cf2 \strokec10 0\cf2 \strokec9 ,\cf2 \strokec10 0.1\cf2 \strokec8 )\cf2 \strokec9 ;\cf2 \strokec6 \
+        \cf2 \strokec9 \}\cf2 \strokec6 \
+    \cf2 \strokec7 </\cf2 \strokec4 style\cf2 \strokec7 >\cf2 \strokec6 \
+\cf2 \strokec7 </\cf2 \strokec4 head\cf2 \strokec7 >\cf2 \strokec6 \
+\cf2 \strokec7 <\cf2 \strokec4 body\cf2 \strokec6  \cf2 \strokec5 class\cf2 \strokec7 =\cf2 \strokec8 "bg-slate-100 flex flex-col items-center min-h-screen p-4 sm:p-8"\cf2 \strokec7 >\cf2 \strokec6 \
+\
+    \cf2 \strokec7 <\cf2 \strokec4 div\cf2 \strokec6  \cf2 \strokec5 class\cf2 \strokec7 =\cf2 \strokec8 "bg-white p-6 rounded-lg shadow-xl w-full max-w-2xl"\cf2 \strokec7 >\cf2 \strokec6 \
+        \cf2 \strokec7 <\cf2 \strokec4 h1\cf2 \strokec6  \cf2 \strokec5 class\cf2 \strokec7 =\cf2 \strokec8 "text-3xl sm:text-4xl font-bold text-sky-600 text-shadow-custom text-center my-4"\cf2 \strokec7 >\cf2 \strokec6 \
+            Gloria\uc0\u32769 \u24107 \u32102 \u30050 \u26989 \u29983 \u30340 \u31069 \u31119 \
+        \cf2 \strokec7 </\cf2 \strokec4 h1\cf2 \strokec7 >\cf2 \strokec6 \
+        \cf2 \strokec7 <\cf2 \strokec4 p\cf2 \strokec6  \cf2 \strokec5 class\cf2 \strokec7 =\cf2 \strokec8 "bg-sky-100 text-sky-700 p-3 rounded-md text-center mb-6 text-sm sm:text-base"\cf2 \strokec7 >\cf2 \strokec6 \
+            \uc0\u32178 \u38913 \u21109 \u24314 \u20154 : Gloria\u21555 \u31168 \u34349 \u32769 \u24107 \u65292 Google\u35469 \u35657 \u35611 \u24107 , \u33521 \u25991 \u20860 \u21488 \u35486 \u25945 \u24107 \
+        \cf2 \strokec7 </\cf2 \strokec4 p\cf2 \strokec7 >\cf2 \strokec6 \
+\
+        \cf2 \strokec7 <\cf2 \strokec4 div\cf2 \strokec6  \cf2 \strokec5 class\cf2 \strokec7 =\cf2 \strokec8 "mb-6"\cf2 \strokec7 >\cf2 \strokec6 \
+            \cf2 \strokec7 <\cf2 \strokec4 label\cf2 \strokec6  \cf2 \strokec5 for\cf2 \strokec7 =\cf2 \strokec8 "languageSelector"\cf2 \strokec6  \cf2 \strokec5 class\cf2 \strokec7 =\cf2 \strokec8 "block text-sm font-medium text-gray-700 mb-1"\cf2 \strokec7 >\cf2 \strokec6 \uc0\u36984 \u25799 \u35486 \u35328 :\cf2 \strokec7 </\cf2 \strokec4 label\cf2 \strokec7 >\cf2 \strokec6 \
+            \cf2 \strokec7 <\cf2 \strokec4 select\cf2 \strokec6  \cf2 \strokec5 id\cf2 \strokec7 =\cf2 \strokec8 "languageSelector"\cf2 \strokec6  \cf2 \strokec5 class\cf2 \strokec7 =\cf2 \strokec8 "block w-full md:w-2/3 mx-auto p-2 border border-gray-300 rounded-md shadow-sm focus:ring-sky-500 focus:border-sky-500"\cf2 \strokec7 >\cf2 \strokec6 \
+                \cf2 \strokec7 <\cf2 \strokec4 option\cf2 \strokec6  \cf2 \strokec5 value\cf2 \strokec7 =\cf2 \strokec8 "chinese"\cf2 \strokec7 >\cf2 \strokec6 \uc0\u20013 \u25991 \u37329 \u21477 \cf2 \strokec7 </\cf2 \strokec4 option\cf2 \strokec7 >\cf2 \strokec6 \
+                \cf2 \strokec7 <\cf2 \strokec4 option\cf2 \strokec6  \cf2 \strokec5 value\cf2 \strokec7 =\cf2 \strokec8 "english"\cf2 \strokec7 >\cf2 \strokec6 \uc0\u33521 \u25991 \u31069 \u31119 \cf2 \strokec7 </\cf2 \strokec4 option\cf2 \strokec7 >\cf2 \strokec6 \
+                \cf2 \strokec7 <\cf2 \strokec4 option\cf2 \strokec6  \cf2 \strokec5 value\cf2 \strokec7 =\cf2 \strokec8 "taiwanese"\cf2 \strokec7 >\cf2 \strokec6 \uc0\u21488 \u35486 \u28450 \u23383 \cf2 \strokec7 </\cf2 \strokec4 option\cf2 \strokec7 >\cf2 \strokec6 \
+            \cf2 \strokec7 </\cf2 \strokec4 select\cf2 \strokec7 >\cf2 \strokec6 \
+        \cf2 \strokec7 </\cf2 \strokec4 div\cf2 \strokec7 >\cf2 \strokec6 \
+\
+        \cf2 \strokec7 <\cf2 \strokec4 div\cf2 \strokec6  \cf2 \strokec5 id\cf2 \strokec7 =\cf2 \strokec8 "resultCard"\cf2 \strokec6  \cf2 \strokec5 class\cf2 \strokec7 =\cf2 \strokec8 "p-4 bg-amber-100 border-2 border-amber-400 rounded-lg shadow-lg text-center text-lg sm:text-xl font-semibold mb-2 hidden relative z-10"\cf2 \strokec7 >\cf2 \strokec6 \
+            \cf2 \strokec7 <\cf2 \strokec4 p\cf2 \strokec6  \cf2 \strokec5 id\cf2 \strokec7 =\cf2 \strokec8 "resultText"\cf2 \strokec7 ></\cf2 \strokec4 p\cf2 \strokec7 >\cf2 \strokec6 \
+        \cf2 \strokec7 </\cf2 \strokec4 div\cf2 \strokec7 >\cf2 \strokec6 \
+        \cf2 \strokec7 <\cf2 \strokec4 div\cf2 \strokec6  \cf2 \strokec5 id\cf2 \strokec7 =\cf2 \strokec8 "analyzeButtonContainer"\cf2 \strokec6  \cf2 \strokec5 class\cf2 \strokec7 =\cf2 \strokec8 "text-center mb-4 hidden"\cf2 \strokec7 >\cf2 \strokec6 \
+             \cf2 \strokec7 <\cf2 \strokec4 button\cf2 \strokec6  \cf2 \strokec5 id\cf2 \strokec7 =\cf2 \strokec8 "analyzeBlessingBtn"\cf2 \strokec6  \cf2 \strokec5 class\cf2 \strokec7 =\cf2 \strokec8 "bg-purple-500 hover:bg-purple-600 text-white font-semibold py-2 px-4 rounded-md shadow-md transition duration-150 ease-in-out text-sm"\cf2 \strokec7 >\cf2 \strokec6 \
+                \uc0\u10024  \u35299 \u26512 \u36889 \u21477 \u31069 \u31119 \
+            \cf2 \strokec7 </\cf2 \strokec4 button\cf2 \strokec7 >\cf2 \strokec6 \
+            \cf2 \strokec7 <\cf2 \strokec4 div\cf2 \strokec6  \cf2 \strokec5 id\cf2 \strokec7 =\cf2 \strokec8 "analyzerLoading"\cf2 \strokec6  \cf2 \strokec5 class\cf2 \strokec7 =\cf2 \strokec8 "text-center mt-2 hidden"\cf2 \strokec7 >\cf2 \strokec6 \
+                \cf2 \strokec7 <\cf2 \strokec4 div\cf2 \strokec6  \cf2 \strokec5 class\cf2 \strokec7 =\cf2 \strokec8 "spinner"\cf2 \strokec7 ></\cf2 \strokec4 div\cf2 \strokec7 >\cf2 \strokec6 \
+                \cf2 \strokec7 <\cf2 \strokec4 p\cf2 \strokec6  \cf2 \strokec5 class\cf2 \strokec7 =\cf2 \strokec8 "text-sm text-purple-600"\cf2 \strokec7 >\cf2 \strokec6 \uc0\u27491 \u22312 \u35299 \u26512 \u31069 \u31119 ...\cf2 \strokec7 </\cf2 \strokec4 p\cf2 \strokec7 >\cf2 \strokec6 \
+            \cf2 \strokec7 </\cf2 \strokec4 div\cf2 \strokec7 >\cf2 \strokec6 \
+        \cf2 \strokec7 </\cf2 \strokec4 div\cf2 \strokec7 >\cf2 \strokec6 \
+\
+\
+        \cf2 \strokec7 <\cf2 \strokec4 div\cf2 \strokec6  \cf2 \strokec5 class\cf2 \strokec7 =\cf2 \strokec8 "flex justify-center items-center my-8 relative"\cf2 \strokec7 >\cf2 \strokec6 \
+            \cf2 \strokec7 <\cf2 \strokec4 canvas\cf2 \strokec6  \cf2 \strokec5 id\cf2 \strokec7 =\cf2 \strokec8 "wheelCanvas"\cf2 \strokec7 ></\cf2 \strokec4 canvas\cf2 \strokec7 >\cf2 \strokec6 \
+            \cf2 \strokec7 <\cf2 \strokec4 div\cf2 \strokec6  \cf2 \strokec5 class\cf2 \strokec7 =\cf2 \strokec8 "absolute right-[-10px] top-1/2 -translate-y-1/2 w-0 h-0"\cf2 \strokec6 \
+                 \cf2 \strokec5 style\cf2 \strokec7 =\cf2 \strokec6 "\cf2 \strokec5 border-top\cf2 \strokec6 : \cf2 \strokec5 15px\cf2 \strokec6  \cf2 \strokec5 solid\cf2 \strokec6  \cf2 \strokec5 transparent\cf2 \strokec6 ;\
+                        \cf2 \strokec5 border-bottom\cf2 \strokec6 : \cf2 \strokec5 15px\cf2 \strokec6  \cf2 \strokec5 solid\cf2 \strokec6  \cf2 \strokec5 transparent\cf2 \strokec6 ;\
+                        \cf2 \strokec5 border-left\cf2 \strokec6 : \cf2 \strokec5 25px\cf2 \strokec6  \cf2 \strokec5 solid\cf2 \strokec6  #\cf2 \strokec5 ef4444\cf2 \strokec6 ;"\cf2 \strokec7 >\cf2 \strokec6 \
+            \cf2 \strokec7 </\cf2 \strokec4 div\cf2 \strokec7 >\cf2 \strokec6 \
+        \cf2 \strokec7 </\cf2 \strokec4 div\cf2 \strokec7 >\cf2 \strokec6 \
+         \cf2 \strokec7 <\cf2 \strokec4 p\cf2 \strokec6  \cf2 \strokec5 class\cf2 \strokec7 =\cf2 \strokec8 "text-center text-gray-600 text-sm mt-4"\cf2 \strokec7 >\cf2 \strokec6 \uc0\u40670 \u25802 \u36681 \u30436 \u38283 \u22987 \u65281 \cf2 \strokec7 </\cf2 \strokec4 p\cf2 \strokec7 >\cf2 \strokec6 \
+    \cf2 \strokec7 </\cf2 \strokec4 div\cf2 \strokec7 >\cf2 \strokec6 \
+\
+    \cf2 \strokec7 <\cf2 \strokec4 div\cf2 \strokec6  \cf2 \strokec5 id\cf2 \strokec7 =\cf2 \strokec8 "analysisModal"\cf2 \strokec6  \cf2 \strokec5 class\cf2 \strokec7 =\cf2 \strokec8 "modal hidden"\cf2 \strokec7 >\cf2 \strokec6 \
+        \cf2 \strokec7 <\cf2 \strokec4 div\cf2 \strokec6  \cf2 \strokec5 class\cf2 \strokec7 =\cf2 \strokec8 "modal-content"\cf2 \strokec7 >\cf2 \strokec6 \
+            \cf2 \strokec7 <\cf2 \strokec4 h3\cf2 \strokec6  \cf2 \strokec5 class\cf2 \strokec7 =\cf2 \strokec8 "text-lg font-semibold mb-2 text-purple-700"\cf2 \strokec7 >\cf2 \strokec6 \uc0\u31069 \u31119 \u35486 \u35299 \u26512  \u10024 \cf2 \strokec7 </\cf2 \strokec4 h3\cf2 \strokec7 >\cf2 \strokec6 \
+            \cf2 \strokec7 <\cf2 \strokec4 p\cf2 \strokec6  \cf2 \strokec5 id\cf2 \strokec7 =\cf2 \strokec8 "analysisText"\cf2 \strokec6  \cf2 \strokec5 class\cf2 \strokec7 =\cf2 \strokec8 "text-gray-700"\cf2 \strokec7 ></\cf2 \strokec4 p\cf2 \strokec7 >\cf2 \strokec6 \
+            \cf2 \strokec7 <\cf2 \strokec4 button\cf2 \strokec6  \cf2 \strokec5 id\cf2 \strokec7 =\cf2 \strokec8 "closeModalBtn"\cf2 \strokec6  \cf2 \strokec5 class\cf2 \strokec7 =\cf2 \strokec8 "mt-4 bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded-md"\cf2 \strokec7 >\cf2 \strokec6 \uc0\u38364 \u38281 \cf2 \strokec7 </\cf2 \strokec4 button\cf2 \strokec7 >\cf2 \strokec6 \
+        \cf2 \strokec7 </\cf2 \strokec4 div\cf2 \strokec7 >\cf2 \strokec6 \
+    \cf2 \strokec7 </\cf2 \strokec4 div\cf2 \strokec7 >\cf2 \strokec6 \
+\
+\
+    \cf2 \strokec7 <\cf2 \strokec4 script\cf2 \strokec7 >\cf2 \strokec6 \
+        document\cf2 \strokec9 .\cf2 \strokec6 addEventListener\cf2 \strokec9 (\cf2 \strokec11 'DOMContentLoaded'\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec9 ()\cf2 \strokec6  \cf2 \strokec9 =>\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+            \cf2 \strokec13 const\cf2 \strokec6  languageSelector \cf2 \strokec9 =\cf2 \strokec6  document\cf2 \strokec9 .\cf2 \strokec6 getElementById\cf2 \strokec9 (\cf2 \strokec11 'languageSelector'\cf2 \strokec9 );\cf2 \strokec6 \
+            \cf2 \strokec13 const\cf2 \strokec6  wheelCanvas \cf2 \strokec9 =\cf2 \strokec6  document\cf2 \strokec9 .\cf2 \strokec6 getElementById\cf2 \strokec9 (\cf2 \strokec11 'wheelCanvas'\cf2 \strokec9 );\cf2 \strokec6 \
+            \cf2 \strokec13 const\cf2 \strokec6  resultCard \cf2 \strokec9 =\cf2 \strokec6  document\cf2 \strokec9 .\cf2 \strokec6 getElementById\cf2 \strokec9 (\cf2 \strokec11 'resultCard'\cf2 \strokec9 );\cf2 \strokec6 \
+            \cf2 \strokec13 const\cf2 \strokec6  resultText \cf2 \strokec9 =\cf2 \strokec6  document\cf2 \strokec9 .\cf2 \strokec6 getElementById\cf2 \strokec9 (\cf2 \strokec11 'resultText'\cf2 \strokec9 );\cf2 \strokec6 \
+            \cf2 \strokec13 const\cf2 \strokec6  ctx \cf2 \strokec9 =\cf2 \strokec6  wheelCanvas\cf2 \strokec9 .\cf2 \strokec6 getContext\cf2 \strokec9 (\cf2 \strokec11 '2d'\cf2 \strokec9 );\cf2 \strokec6 \
+\
+            \cf2 \strokec13 const\cf2 \strokec6  analyzeButtonContainer \cf2 \strokec9 =\cf2 \strokec6  document\cf2 \strokec9 .\cf2 \strokec6 getElementById\cf2 \strokec9 (\cf2 \strokec11 'analyzeButtonContainer'\cf2 \strokec9 );\cf2 \strokec6 \
+            \cf2 \strokec13 const\cf2 \strokec6  analyzeBlessingBtn \cf2 \strokec9 =\cf2 \strokec6  document\cf2 \strokec9 .\cf2 \strokec6 getElementById\cf2 \strokec9 (\cf2 \strokec11 'analyzeBlessingBtn'\cf2 \strokec9 );\cf2 \strokec6 \
+            \cf2 \strokec13 const\cf2 \strokec6  analyzerLoading \cf2 \strokec9 =\cf2 \strokec6  document\cf2 \strokec9 .\cf2 \strokec6 getElementById\cf2 \strokec9 (\cf2 \strokec11 'analyzerLoading'\cf2 \strokec9 );\cf2 \strokec6 \
+            \cf2 \strokec13 const\cf2 \strokec6  analysisModal \cf2 \strokec9 =\cf2 \strokec6  document\cf2 \strokec9 .\cf2 \strokec6 getElementById\cf2 \strokec9 (\cf2 \strokec11 'analysisModal'\cf2 \strokec9 );\cf2 \strokec6 \
+            \cf2 \strokec13 const\cf2 \strokec6  analysisText \cf2 \strokec9 =\cf2 \strokec6  document\cf2 \strokec9 .\cf2 \strokec6 getElementById\cf2 \strokec9 (\cf2 \strokec11 'analysisText'\cf2 \strokec9 );\cf2 \strokec6 \
+            \cf2 \strokec13 const\cf2 \strokec6  closeModalBtn \cf2 \strokec9 =\cf2 \strokec6  document\cf2 \strokec9 .\cf2 \strokec6 getElementById\cf2 \strokec9 (\cf2 \strokec11 'closeModalBtn'\cf2 \strokec9 );\cf2 \strokec6 \
+\
+            \cf2 \strokec13 const\cf2 \strokec6  yearbookMessages \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec9 [\cf2 \strokec6 \
+                \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec11 "\uc0\u33521 \u25991 \u27161 \u35486 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "Dream big and dare to fail."\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20013 \u25991 \u32763 \u35695 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21191 \u25954 \u22818 \u24819 \u65292 \u21191 \u26044 \u22039 \u35430 \u12290 "\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21488 \u35486 \u28450 \u23383 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21191 \u25954 \u20570 \u22818 \u65292 \u25293 \u25306 \u35430 \u30475 \u35219 \u12290 "\cf2 \strokec6  \cf2 \strokec9 \},\cf2 \strokec6 \
+                \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec11 "\uc0\u33521 \u25991 \u27161 \u35486 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "The future belongs to those who believe in the beauty of their dreams."\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20013 \u25991 \u32763 \u35695 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u26410 \u20358 \u23660 \u26044 \u37027 \u20123 \u30456 \u20449 \u22818 \u24819 \u20043 \u32654 \u30340 \u20154 \u12290 "\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21488 \u35486 \u28450 \u23383 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u26410 \u20358 \u26159 \u23660 \u20295 \u24444 \u34399 \u30456 \u20449 \u32654 \u22818 \u30340 \u20154 \u12290 "\cf2 \strokec6  \cf2 \strokec9 \},\cf2 \strokec6 \
+                \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec11 "\uc0\u33521 \u25991 \u27161 \u35486 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "May your journey be filled with joy and success."\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20013 \u25991 \u32763 \u35695 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u39000 \u20320 \u30340 \u26053 \u31243 \u20805 \u28415 \u21916 \u24709 \u33287 \u25104 \u21151 \u12290 "\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21488 \u35486 \u28450 \u23383 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u39000 \u24641 \u30340 \u26053 \u34892 \u20805 \u28415 \u27489 \u21916 \u20334 \u25104 \u21151 \u12290 "\cf2 \strokec6  \cf2 \strokec9 \},\cf2 \strokec6 \
+                \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec11 "\uc0\u33521 \u25991 \u27161 \u35486 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "Never stop learning, because life never stops teaching."\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20013 \u25991 \u32763 \u35695 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u27704 \u19981 \u27490 \u24687 \u22320 \u23416 \u32722 \u65292 \u22240 \u28858 \u20154 \u29983 \u27704 \u19981 \u27490 \u24687 \u22320 \u25945 \u23566 \u12290 "\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21488 \u35486 \u28450 \u23383 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u27704 \u36960 \u24859 \u23416 \u65292 \u22240 \u28858 \u20154 \u29983 \u27704 \u36960 \u21671 \u25945 \u12290 "\cf2 \strokec6  \cf2 \strokec9 \},\cf2 \strokec6 \
+                \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec11 "\uc0\u33521 \u25991 \u27161 \u35486 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "Chase your passions and you'll never work a day in your life."\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20013 \u25991 \u32763 \u35695 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u36861 \u36880 \u20320 \u30340 \u29105 \u24773 \u65292 \u20320 \u23559 \u26371 \u27138 \u22312 \u20854 \u20013 \u65292 \u19981 \u35258 \u24037 \u20316 \u36763 \u21214 \u12290 "\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21488 \u35486 \u28450 \u23383 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u36861 \u20320 \u30340 \u29105 \u24773 \u65292 \u20570 \u30002 \u27489 \u21916 \u23601 \u34946 \u24863 \u35258 \u24541 \u12290 "\cf2 \strokec6  \cf2 \strokec9 \},\cf2 \strokec6 \
+                \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec11 "\uc0\u33521 \u25991 \u27161 \u35486 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "Be the change you wish to see in the world."\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20013 \u25991 \u32763 \u35695 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u25104 \u28858 \u20320 \u24076 \u26395 \u22312 \u19990 \u30028 \u19978 \u30475 \u21040 \u30340 \u25913 \u35722 \u12290 "\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21488 \u35486 \u28450 \u23383 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20570 \u20320 \u24076 \u26395 \u20295 \u19990 \u38291 \u30475 \u33879 \u30340 \u25913 \u35722 \u12290 "\cf2 \strokec6  \cf2 \strokec9 \},\cf2 \strokec6 \
+                \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec11 "\uc0\u33521 \u25991 \u27161 \u35486 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "Your potential is endless. Go forth and shine!"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20013 \u25991 \u32763 \u35695 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20320 \u30340 \u28507 \u21147 \u28961 \u38480 \u65292 \u21191 \u25954 \u21069 \u36914 \u65292 \u32187 \u25918 \u20809 \u33426 \u65281 "\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21488 \u35486 \u28450 \u23383 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20320 \u30340 \u28507 \u21147 \u28961 \u38480 \u65292 \u21191 \u25954 \u21521 \u21069 \u65292 \u30332 \u20986 \u20809 \u24425 \u65281 "\cf2 \strokec6  \cf2 \strokec9 \},\cf2 \strokec6 \
+                \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec11 "\uc0\u33521 \u25991 \u27161 \u35486 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "Embrace challenges as opportunities for growth."\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20013 \u25991 \u32763 \u35695 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u23559 \u25361 \u25136 \u35222 \u28858 \u25104 \u38263 \u30340 \u27231 \u26371 \u12290 "\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21488 \u35486 \u28450 \u23383 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u23559 \u25361 \u25136 \u30475 \u20570 \u26159 \u25104 \u38263 \u30340 \u27231 \u26371 \u12290 "\cf2 \strokec6  \cf2 \strokec9 \},\cf2 \strokec6 \
+                \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec11 "\uc0\u33521 \u25991 \u27161 \u35486 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "Always remember the lessons learned and the friendships made."\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20013 \u25991 \u32763 \u35695 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u27704 \u36960 \u35352 \u24471 \u25152 \u23416 \u21040 \u30340 \u35506 \u38988 \u21644 \u24314 \u31435 \u30340 \u21451 \u35516 \u12290 "\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21488 \u35486 \u28450 \u23383 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u27704 \u36960 \u26371 \u35352 \u24471 \u25152 \u23416 \u30340 \u35506 \u26989 \u20334 \u39717 \u38499 \u30340 \u26379 \u21451 \u12290 "\cf2 \strokec6  \cf2 \strokec9 \},\cf2 \strokec6 \
+                \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec11 "\uc0\u33521 \u25991 \u27161 \u35486 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "The world is your oyster. Go explore it!"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20013 \u25991 \u32763 \u35695 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u19990 \u30028 \u26159 \u20320 \u30340 \u29281 \u34851 \u65292 \u21435 \u25506 \u32034 \u23427 \u21543 \u65281  (\u24847 \u25351 \u19990 \u30028 \u20805 \u28415 \u27231 \u26371 )"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21488 \u35486 \u28450 \u23383 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u19990 \u30028 \u26159 \u24641 \u30340 \u27231 \u26371 \u65292 \u21435 \u25506 \u38570 \u30475 \u35219 \u65281 "\cf2 \strokec6  \cf2 \strokec9 \},\cf2 \strokec6 \
+                \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec11 "\uc0\u33521 \u25991 \u27161 \u35486 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "Believe in yourself and all that you are."\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20013 \u25991 \u32763 \u35695 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u30456 \u20449 \u20320 \u33258 \u24049 \u21644 \u20320 \u30340 \u19968 \u20999 \u12290 "\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21488 \u35486 \u28450 \u23383 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u30456 \u20449 \u20320 \u33258 \u24049 \u20334 \u20320 \u25152 \u26377 \u30340 \u19968 \u20999 \u12290 "\cf2 \strokec6  \cf2 \strokec9 \},\cf2 \strokec6 \
+                \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec11 "\uc0\u33521 \u25991 \u27161 \u35486 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "Make a difference."\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20013 \u25991 \u32763 \u35695 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21109 \u36896 \u19981 \u21516 \u65292 \u26377 \u25152 \u20316 \u28858 \u12290 "\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21488 \u35486 \u28450 \u23383 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21109 \u36896 \u28961 \u21516 \u65292 \u20570 \u20986 \u22909 \u25104 \u32318 \u12290 "\cf2 \strokec6  \cf2 \strokec9 \},\cf2 \strokec6 \
+                \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec11 "\uc0\u33521 \u25991 \u27161 \u35486 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "The best is yet to come."\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20013 \u25991 \u32763 \u35695 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u26368 \u22909 \u30340 \u23578 \u26410 \u20358 \u33256 \u12290 "\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21488 \u35486 \u28450 \u23383 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u23578 \u22909 \u30340 \u29494 \u26410 \u21040 \u12290 "\cf2 \strokec6  \cf2 \strokec9 \},\cf2 \strokec6 \
+                \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec11 "\uc0\u33521 \u25991 \u27161 \u35486 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "Follow your heart, it knows the way."\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20013 \u25991 \u32763 \u35695 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u36319 \u38568 \u20320 \u30340 \u24515 \u65292 \u23427 \u30693 \u36947 \u26041 \u21521 \u12290 "\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21488 \u35486 \u28450 \u23383 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u36319 \u20320 \u30340 \u24515 \u34892 \u65292 \u20234 \u30693 \u36335 \u12290 "\cf2 \strokec6  \cf2 \strokec9 \},\cf2 \strokec6 \
+                \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec11 "\uc0\u33521 \u25991 \u27161 \u35486 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "Keep shining brightly."\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20013 \u25991 \u32763 \u35695 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u32380 \u32396 \u38275 \u32768 \u20809 \u33426 \u12290 "\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21488 \u35486 \u28450 \u23383 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u32380 \u32396 \u30332 \u20809 \u30332 \u29105 \u12290 "\cf2 \strokec6  \cf2 \strokec9 \},\cf2 \strokec6 \
+                \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec11 "\uc0\u33521 \u25991 \u27161 \u35486 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "Success is not final, failure is not fatal: It is the courage to continue that counts."\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20013 \u25991 \u32763 \u35695 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u25104 \u21151 \u19981 \u26159 \u32066 \u40670 \u65292 \u22833 \u25943 \u20063 \u38750 \u26411 \u26085 \u65306 \u37325 \u35201 \u30340 \u26159 \u32380 \u32396 \u21069 \u36914 \u30340 \u21191 \u27683 \u12290 "\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21488 \u35486 \u28450 \u23383 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u25104 \u21151 \u27595 \u26159 \u32080 \u23616 \u65292 \u22833 \u25943 \u20063 \u27595 \u26159 \u32085 \u36335 \u65306 \u37325 \u35201 \u26159 \u32380 \u32396 \u25306 \u30340 \u21191 \u27683 \u12290 "\cf2 \strokec6  \cf2 \strokec9 \},\cf2 \strokec6 \
+                \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec11 "\uc0\u33521 \u25991 \u27161 \u35486 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "You are capable of amazing things."\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20013 \u25991 \u32763 \u35695 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20320 \u26377 \u33021 \u21147 \u25104 \u23601 \u38750 \u20961 \u12290 "\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21488 \u35486 \u28450 \u23383 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20320 \u26377 \u25165 \u35519 \u25104 \u23601 \u28961 \u31777 \u21934 \u30340 \u20195 \u35468 \u12290 "\cf2 \strokec6  \cf2 \strokec9 \},\cf2 \strokec6 \
+                \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec11 "\uc0\u33521 \u25991 \u27161 \u35486 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "Write your own story."\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20013 \u25991 \u32763 \u35695 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u26360 \u23531 \u20320 \u33258 \u24049 \u30340 \u25925 \u20107 \u12290 "\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21488 \u35486 \u28450 \u23383 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u23531 \u20320 \u33258 \u24049 \u30340 \u25925 \u20107 \u12290 "\cf2 \strokec6  \cf2 \strokec9 \},\cf2 \strokec6 \
+                \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec11 "\uc0\u33521 \u25991 \u27161 \u35486 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "May your future be as bright as your smile."\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20013 \u25991 \u32763 \u35695 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u39000 \u20320 \u30340 \u26410 \u20358 \u22914 \u21516 \u20320 \u30340 \u31505 \u23481 \u33324 \u29158 \u29211 \u12290 "\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21488 \u35486 \u28450 \u23383 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u39000 \u20320 \u30340 \u26410 \u20358 \u35242 \u20687 \u20320 \u30340 \u31505 \u23481 \u36944 \u29246 \u20180 \u20809 \u12290 "\cf2 \strokec6  \cf2 \strokec9 \},\cf2 \strokec6 \
+                \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec11 "\uc0\u33521 \u25991 \u27161 \u35486 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "Go confidently in the direction of your dreams."\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20013 \u25991 \u32763 \u35695 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u28415 \u25079 \u33258 \u20449 \u22320 \u26397 \u33879 \u20320 \u22818 \u24819 \u30340 \u26041 \u21521 \u21069 \u36914 \u12290 "\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "\uc0\u21488 \u35486 \u28450 \u23383 "\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "\uc0\u20805 \u28415 \u33258 \u20449 \u21521 \u20320 \u30340 \u22818 \u24819 \u36914 \u21069 \u12290 "\cf2 \strokec6  \cf2 \strokec9 \}\cf2 \strokec6 \
+            \cf2 \strokec9 ];\cf2 \strokec6 \
+\
+            \cf2 \strokec13 const\cf2 \strokec6  chineseQuotes \cf2 \strokec9 =\cf2 \strokec6  yearbookMessages\cf2 \strokec9 .\cf2 \strokec6 map\cf2 \strokec9 (\cf2 \strokec6 item \cf2 \strokec9 =>\cf2 \strokec6  item\cf2 \strokec9 .\cf2 \strokec14 \uc0\u20013 \u25991 \u32763 \u35695 \cf2 \strokec9 );\cf2 \strokec6 \
+            \cf2 \strokec13 const\cf2 \strokec6  englishBlessings \cf2 \strokec9 =\cf2 \strokec6  yearbookMessages\cf2 \strokec9 .\cf2 \strokec6 map\cf2 \strokec9 (\cf2 \strokec6 item \cf2 \strokec9 =>\cf2 \strokec6  item\cf2 \strokec9 .\cf2 \strokec14 \uc0\u33521 \u25991 \u27161 \u35486 \cf2 \strokec9 );\cf2 \strokec6 \
+            \cf2 \strokec13 const\cf2 \strokec6  taiwaneseBlessings \cf2 \strokec9 =\cf2 \strokec6  yearbookMessages\cf2 \strokec9 .\cf2 \strokec6 map\cf2 \strokec9 (\cf2 \strokec6 item \cf2 \strokec9 =>\cf2 \strokec6  item\cf2 \strokec9 .\cf2 \strokec14 \uc0\u21488 \u35486 \u28450 \u23383 \cf2 \strokec9 );\cf2 \strokec6 \
+\
+            \cf2 \strokec13 let\cf2 \strokec6  currentPhrases \cf2 \strokec9 =\cf2 \strokec6  chineseQuotes\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec13 const\cf2 \strokec6  numSegments \cf2 \strokec9 =\cf2 \strokec6  yearbookMessages\cf2 \strokec9 .\cf2 \strokec6 length\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec13 const\cf2 \strokec6  segmentAngle \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec15 2\cf2 \strokec6  \cf2 \strokec9 *\cf2 \strokec6  \cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec16 PI\cf2 \strokec6  \cf2 \strokec9 /\cf2 \strokec6  numSegments\cf2 \strokec9 ;\cf2 \strokec6 \
+            \
+            \cf2 \strokec13 const\cf2 \strokec6  wheelRadius \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec15 150\cf2 \strokec9 ;\cf2 \strokec6 \
+            wheelCanvas\cf2 \strokec9 .\cf2 \strokec6 width \cf2 \strokec9 =\cf2 \strokec6  wheelRadius \cf2 \strokec9 *\cf2 \strokec6  \cf2 \strokec15 2\cf2 \strokec9 ;\cf2 \strokec6 \
+            wheelCanvas\cf2 \strokec9 .\cf2 \strokec6 height \cf2 \strokec9 =\cf2 \strokec6  wheelRadius \cf2 \strokec9 *\cf2 \strokec6  \cf2 \strokec15 2\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec13 const\cf2 \strokec6  centerX \cf2 \strokec9 =\cf2 \strokec6  wheelCanvas\cf2 \strokec9 .\cf2 \strokec6 width \cf2 \strokec9 /\cf2 \strokec6  \cf2 \strokec15 2\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec13 const\cf2 \strokec6  centerY \cf2 \strokec9 =\cf2 \strokec6  wheelCanvas\cf2 \strokec9 .\cf2 \strokec6 height \cf2 \strokec9 /\cf2 \strokec6  \cf2 \strokec15 2\cf2 \strokec9 ;\cf2 \strokec6 \
+\
+            \cf2 \strokec13 let\cf2 \strokec6  currentRotation \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec15 0\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec13 let\cf2 \strokec6  isSpinning \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec13 false\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec13 let\cf2 \strokec6  currentDisplayedBlessing \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 ""\cf2 \strokec9 ;\cf2 \strokec6  \
+\
+            \cf2 \strokec13 const\cf2 \strokec6  segmentColors \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec9 [\cf2 \strokec6 \
+                \cf2 \strokec11 "#FFADAD"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#FFD6A5"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#FDFFB6"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#CAFFBF"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#9BF6FF"\cf2 \strokec9 ,\cf2 \strokec6 \
+                \cf2 \strokec11 "#A0C4FF"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#BDB2FF"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#FFC6FF"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#FFB3BA"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#FFFFBA"\cf2 \strokec9 ,\cf2 \strokec6 \
+                \cf2 \strokec11 "#BAFFC9"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#BAE1FF"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#E0BBE4"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#FFDFBA"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#BFFCC6"\cf2 \strokec9 ,\cf2 \strokec6 \
+                \cf2 \strokec11 "#D4A5A5"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#A8D8EA"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#F3E6B3"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#C9E4DE"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#F4B6C2"\cf2 \strokec9 ,\cf2 \strokec6 \
+                \cf2 \strokec11 "#FF9A8B"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#FDC78E"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#FCFF9E"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#B5FFAD"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#8BE8FF"\cf2 \strokec9 ,\cf2 \strokec6 \
+                \cf2 \strokec11 "#8FAFFF"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#ADA2FF"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#FFB0FF"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#FFA0AB"\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec11 "#FFFFA8"\cf2 \strokec6  \
+            \cf2 \strokec9 ];\cf2 \strokec6 \
+\
+            \cf2 \strokec13 function\cf2 \strokec6  drawWheel\cf2 \strokec9 ()\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                ctx\cf2 \strokec9 .\cf2 \strokec6 clearRect\cf2 \strokec9 (\cf2 \strokec15 0\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec15 0\cf2 \strokec9 ,\cf2 \strokec6  wheelCanvas\cf2 \strokec9 .\cf2 \strokec6 width\cf2 \strokec9 ,\cf2 \strokec6  wheelCanvas\cf2 \strokec9 .\cf2 \strokec6 height\cf2 \strokec9 );\cf2 \strokec6 \
+                \cf2 \strokec13 for\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec13 let\cf2 \strokec6  i \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec15 0\cf2 \strokec9 ;\cf2 \strokec6  i \cf2 \strokec9 <\cf2 \strokec6  numSegments\cf2 \strokec9 ;\cf2 \strokec6  i\cf2 \strokec9 ++)\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 beginPath\cf2 \strokec9 ();\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 fillStyle \cf2 \strokec9 =\cf2 \strokec6  segmentColors\cf2 \strokec9 [\cf2 \strokec6 i \cf2 \strokec9 %\cf2 \strokec6  segmentColors\cf2 \strokec9 .\cf2 \strokec6 length\cf2 \strokec9 ];\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 moveTo\cf2 \strokec9 (\cf2 \strokec6 centerX\cf2 \strokec9 ,\cf2 \strokec6  centerY\cf2 \strokec9 );\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 arc\cf2 \strokec9 (\cf2 \strokec6 centerX\cf2 \strokec9 ,\cf2 \strokec6  centerY\cf2 \strokec9 ,\cf2 \strokec6  wheelRadius\cf2 \strokec9 ,\cf2 \strokec6  i \cf2 \strokec9 *\cf2 \strokec6  segmentAngle \cf2 \strokec9 +\cf2 \strokec6  currentRotation\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec6 i \cf2 \strokec9 +\cf2 \strokec6  \cf2 \strokec15 1\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec9 *\cf2 \strokec6  segmentAngle \cf2 \strokec9 +\cf2 \strokec6  currentRotation\cf2 \strokec9 );\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 closePath\cf2 \strokec9 ();\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 fill\cf2 \strokec9 ();\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 save\cf2 \strokec9 ();\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 strokeStyle \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 "#FFFFFF"\cf2 \strokec9 ;\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 lineWidth \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec15 2\cf2 \strokec9 ;\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 beginPath\cf2 \strokec9 ();\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 moveTo\cf2 \strokec9 (\cf2 \strokec6 centerX\cf2 \strokec9 ,\cf2 \strokec6  centerY\cf2 \strokec9 );\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 lineTo\cf2 \strokec9 (\cf2 \strokec6 \
+                        centerX \cf2 \strokec9 +\cf2 \strokec6  wheelRadius \cf2 \strokec9 *\cf2 \strokec6  \cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec6 cos\cf2 \strokec9 (\cf2 \strokec6 i \cf2 \strokec9 *\cf2 \strokec6  segmentAngle \cf2 \strokec9 +\cf2 \strokec6  currentRotation\cf2 \strokec9 ),\cf2 \strokec6 \
+                        centerY \cf2 \strokec9 +\cf2 \strokec6  wheelRadius \cf2 \strokec9 *\cf2 \strokec6  \cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec6 sin\cf2 \strokec9 (\cf2 \strokec6 i \cf2 \strokec9 *\cf2 \strokec6  segmentAngle \cf2 \strokec9 +\cf2 \strokec6  currentRotation\cf2 \strokec9 )\cf2 \strokec6 \
+                    \cf2 \strokec9 );\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 stroke\cf2 \strokec9 ();\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 restore\cf2 \strokec9 ();\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 save\cf2 \strokec9 ();\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 translate\cf2 \strokec9 (\cf2 \strokec6 centerX\cf2 \strokec9 ,\cf2 \strokec6  centerY\cf2 \strokec9 );\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 rotate\cf2 \strokec9 (\cf2 \strokec6 i \cf2 \strokec9 *\cf2 \strokec6  segmentAngle \cf2 \strokec9 +\cf2 \strokec6  segmentAngle \cf2 \strokec9 /\cf2 \strokec6  \cf2 \strokec15 2\cf2 \strokec6  \cf2 \strokec9 +\cf2 \strokec6  currentRotation\cf2 \strokec9 );\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 textAlign \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 "center"\cf2 \strokec9 ;\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 textBaseline \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 "middle"\cf2 \strokec9 ;\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 fillStyle \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 "#333333"\cf2 \strokec9 ;\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 font \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 "bold 16px Arial"\cf2 \strokec9 ;\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 fillText\cf2 \strokec9 (\cf2 \strokec16 String\cf2 \strokec9 (\cf2 \strokec6 i \cf2 \strokec9 +\cf2 \strokec6  \cf2 \strokec15 1\cf2 \strokec9 ),\cf2 \strokec6  wheelRadius \cf2 \strokec9 *\cf2 \strokec6  \cf2 \strokec15 0.70\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec15 0\cf2 \strokec9 );\cf2 \strokec6 \
+                    ctx\cf2 \strokec9 .\cf2 \strokec6 restore\cf2 \strokec9 ();\cf2 \strokec6 \
+                \cf2 \strokec9 \}\cf2 \strokec6 \
+            \cf2 \strokec9 \}\cf2 \strokec6 \
+\
+            \cf2 \strokec13 function\cf2 \strokec6  spinWheel\cf2 \strokec9 ()\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                \cf2 \strokec13 if\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec6 isSpinning\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec13 return\cf2 \strokec9 ;\cf2 \strokec6 \
+                isSpinning \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec13 true\cf2 \strokec9 ;\cf2 \strokec6 \
+                resultCard\cf2 \strokec9 .\cf2 \strokec6 style\cf2 \strokec9 .\cf2 \strokec6 display \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 'none'\cf2 \strokec9 ;\cf2 \strokec6 \
+                analyzeButtonContainer\cf2 \strokec9 .\cf2 \strokec6 style\cf2 \strokec9 .\cf2 \strokec6 display \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 'none'\cf2 \strokec9 ;\cf2 \strokec6  \
+\
+                \cf2 \strokec13 const\cf2 \strokec6  initialWheelRotation \cf2 \strokec9 =\cf2 \strokec6  currentRotation\cf2 \strokec9 ;\cf2 \strokec6 \
+                \cf2 \strokec13 const\cf2 \strokec6  numFullSpins \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec6 floor\cf2 \strokec9 (\cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec6 random\cf2 \strokec9 ()\cf2 \strokec6  \cf2 \strokec9 *\cf2 \strokec6  \cf2 \strokec15 5\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec9 +\cf2 \strokec6  \cf2 \strokec15 5\cf2 \strokec9 ;\cf2 \strokec6 \
+                \cf2 \strokec13 const\cf2 \strokec6  selectedItemIndex \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec6 floor\cf2 \strokec9 (\cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec6 random\cf2 \strokec9 ()\cf2 \strokec6  \cf2 \strokec9 *\cf2 \strokec6  numSegments\cf2 \strokec9 );\cf2 \strokec6 \
+                \cf2 \strokec13 const\cf2 \strokec6  angleToCenterOfSelectedItem \cf2 \strokec9 =\cf2 \strokec6  selectedItemIndex \cf2 \strokec9 *\cf2 \strokec6  segmentAngle \cf2 \strokec9 +\cf2 \strokec6  segmentAngle \cf2 \strokec9 /\cf2 \strokec6  \cf2 \strokec15 2\cf2 \strokec9 ;\cf2 \strokec6 \
+                \cf2 \strokec13 let\cf2 \strokec6  targetEndOrientation \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec9 (-(\cf2 \strokec6 angleToCenterOfSelectedItem\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec9 %\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec15 2\cf2 \strokec6  \cf2 \strokec9 *\cf2 \strokec6  \cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec16 PI\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec9 +\cf2 \strokec6  \cf2 \strokec15 2\cf2 \strokec6  \cf2 \strokec9 *\cf2 \strokec6  \cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec16 PI\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec9 %\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec15 2\cf2 \strokec6  \cf2 \strokec9 *\cf2 \strokec6  \cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec16 PI\cf2 \strokec9 );\cf2 \strokec6 \
+                \cf2 \strokec13 let\cf2 \strokec6  targetRotation \cf2 \strokec9 =\cf2 \strokec6  initialWheelRotation \cf2 \strokec9 -\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec6 initialWheelRotation \cf2 \strokec9 %\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec15 2\cf2 \strokec6  \cf2 \strokec9 *\cf2 \strokec6  \cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec16 PI\cf2 \strokec9 ))\cf2 \strokec6  \cf2 \strokec9 +\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec6 numFullSpins \cf2 \strokec9 *\cf2 \strokec6  \cf2 \strokec15 2\cf2 \strokec6  \cf2 \strokec9 *\cf2 \strokec6  \cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec16 PI\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec9 +\cf2 \strokec6  targetEndOrientation\cf2 \strokec9 ;\cf2 \strokec6 \
+                \cf2 \strokec13 if\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec6 targetRotation \cf2 \strokec9 <=\cf2 \strokec6  initialWheelRotation \cf2 \strokec9 +\cf2 \strokec6  \cf2 \strokec15 0.1\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                    targetRotation \cf2 \strokec9 +=\cf2 \strokec6  \cf2 \strokec15 2\cf2 \strokec6  \cf2 \strokec9 *\cf2 \strokec6  \cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec16 PI\cf2 \strokec9 ;\cf2 \strokec6 \
+                \cf2 \strokec9 \}\cf2 \strokec6 \
+                \
+                \cf2 \strokec13 const\cf2 \strokec6  animationDuration \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec15 5000\cf2 \strokec9 ;\cf2 \strokec6 \
+                \cf2 \strokec13 let\cf2 \strokec6  animationStartTime \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec13 null\cf2 \strokec9 ;\cf2 \strokec6 \
+\
+                \cf2 \strokec13 function\cf2 \strokec6  animate\cf2 \strokec9 (\cf2 \strokec6 timestamp\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                    \cf2 \strokec13 if\cf2 \strokec6  \cf2 \strokec9 (!\cf2 \strokec6 animationStartTime\cf2 \strokec9 )\cf2 \strokec6  animationStartTime \cf2 \strokec9 =\cf2 \strokec6  timestamp\cf2 \strokec9 ;\cf2 \strokec6 \
+                    \cf2 \strokec13 const\cf2 \strokec6  elapsedTime \cf2 \strokec9 =\cf2 \strokec6  timestamp \cf2 \strokec9 -\cf2 \strokec6  animationStartTime\cf2 \strokec9 ;\cf2 \strokec6 \
+                    \cf2 \strokec13 const\cf2 \strokec6  progress \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec6 min\cf2 \strokec9 (\cf2 \strokec6 elapsedTime \cf2 \strokec9 /\cf2 \strokec6  animationDuration\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec15 1\cf2 \strokec9 );\cf2 \strokec6 \
+                    \cf2 \strokec13 const\cf2 \strokec6  easedProgress \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec15 1\cf2 \strokec6  \cf2 \strokec9 -\cf2 \strokec6  \cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec6 pow\cf2 \strokec9 (\cf2 \strokec15 1\cf2 \strokec6  \cf2 \strokec9 -\cf2 \strokec6  progress\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec15 4\cf2 \strokec9 );\cf2 \strokec6 \
+                    currentRotation \cf2 \strokec9 =\cf2 \strokec6  initialWheelRotation \cf2 \strokec9 +\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec6 targetRotation \cf2 \strokec9 -\cf2 \strokec6  initialWheelRotation\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec9 *\cf2 \strokec6  easedProgress\cf2 \strokec9 ;\cf2 \strokec6 \
+                    drawWheel\cf2 \strokec9 ();\cf2 \strokec6 \
+                    \cf2 \strokec13 if\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec6 progress \cf2 \strokec9 <\cf2 \strokec6  \cf2 \strokec15 1\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                        requestAnimationFrame\cf2 \strokec9 (\cf2 \strokec6 animate\cf2 \strokec9 );\cf2 \strokec6 \
+                    \cf2 \strokec9 \}\cf2 \strokec6  \cf2 \strokec13 else\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                        currentRotation \cf2 \strokec9 =\cf2 \strokec6  targetRotation\cf2 \strokec9 ;\cf2 \strokec6  \
+                        isSpinning \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec13 false\cf2 \strokec9 ;\cf2 \strokec6 \
+                        displayResult\cf2 \strokec9 ();\cf2 \strokec6 \
+                        drawWheel\cf2 \strokec9 ();\cf2 \strokec6  \
+                    \cf2 \strokec9 \}\cf2 \strokec6 \
+                \cf2 \strokec9 \}\cf2 \strokec6 \
+                requestAnimationFrame\cf2 \strokec9 (\cf2 \strokec6 animate\cf2 \strokec9 );\cf2 \strokec6 \
+            \cf2 \strokec9 \}\cf2 \strokec6 \
+\
+            \cf2 \strokec13 function\cf2 \strokec6  displayResult\cf2 \strokec9 ()\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                \cf2 \strokec13 const\cf2 \strokec6  effectiveRotation \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec6 currentRotation \cf2 \strokec9 %\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec15 2\cf2 \strokec6  \cf2 \strokec9 *\cf2 \strokec6  \cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec16 PI\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec9 +\cf2 \strokec6  \cf2 \strokec15 2\cf2 \strokec6  \cf2 \strokec9 *\cf2 \strokec6  \cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec16 PI\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec9 %\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec15 2\cf2 \strokec6  \cf2 \strokec9 *\cf2 \strokec6  \cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec16 PI\cf2 \strokec9 );\cf2 \strokec6 \
+                \cf2 \strokec13 const\cf2 \strokec6  pointedAngleOnBaseWheel \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec9 (-\cf2 \strokec6 effectiveRotation \cf2 \strokec9 +\cf2 \strokec6  \cf2 \strokec15 2\cf2 \strokec6  \cf2 \strokec9 *\cf2 \strokec6  \cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec16 PI\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec9 %\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec15 2\cf2 \strokec6  \cf2 \strokec9 *\cf2 \strokec6  \cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec16 PI\cf2 \strokec9 );\cf2 \strokec6 \
+                \cf2 \strokec13 let\cf2 \strokec6  winningSegmentIndex \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec6 floor\cf2 \strokec9 (\cf2 \strokec6 pointedAngleOnBaseWheel \cf2 \strokec9 /\cf2 \strokec6  segmentAngle\cf2 \strokec9 );\cf2 \strokec6 \
+                winningSegmentIndex \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec6 max\cf2 \strokec9 (\cf2 \strokec15 0\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec16 Math\cf2 \strokec9 .\cf2 \strokec6 min\cf2 \strokec9 (\cf2 \strokec6 numSegments \cf2 \strokec9 -\cf2 \strokec6  \cf2 \strokec15 1\cf2 \strokec9 ,\cf2 \strokec6  winningSegmentIndex\cf2 \strokec9 ));\cf2 \strokec6 \
+\
+                \cf2 \strokec13 if\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec6 currentPhrases \cf2 \strokec9 &&\cf2 \strokec6  currentPhrases\cf2 \strokec9 [\cf2 \strokec6 winningSegmentIndex\cf2 \strokec9 ])\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                    currentDisplayedBlessing \cf2 \strokec9 =\cf2 \strokec6  currentPhrases\cf2 \strokec9 [\cf2 \strokec6 winningSegmentIndex\cf2 \strokec9 ];\cf2 \strokec6  \
+                    resultText\cf2 \strokec9 .\cf2 \strokec6 textContent \cf2 \strokec9 =\cf2 \strokec6  currentDisplayedBlessing\cf2 \strokec9 ;\cf2 \strokec6 \
+                    analyzeButtonContainer\cf2 \strokec9 .\cf2 \strokec6 style\cf2 \strokec9 .\cf2 \strokec6 display \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 'block'\cf2 \strokec9 ;\cf2 \strokec6  \
+                \cf2 \strokec9 \}\cf2 \strokec6  \cf2 \strokec13 else\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                    resultText\cf2 \strokec9 .\cf2 \strokec6 textContent \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 "\uc0\u30332 \u29983 \u37679 \u35492 \u65292 \u35531 \u37325 \u35430 \u12290 "\cf2 \strokec9 ;\cf2 \strokec6 \
+                    currentDisplayedBlessing \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 ""\cf2 \strokec9 ;\cf2 \strokec6  \
+                    analyzeButtonContainer\cf2 \strokec9 .\cf2 \strokec6 style\cf2 \strokec9 .\cf2 \strokec6 display \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 'none'\cf2 \strokec9 ;\cf2 \strokec6 \
+                \cf2 \strokec9 \}\cf2 \strokec6 \
+                resultCard\cf2 \strokec9 .\cf2 \strokec6 style\cf2 \strokec9 .\cf2 \strokec6 display \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 'block'\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec9 \}\cf2 \strokec6 \
+\
+            languageSelector\cf2 \strokec9 .\cf2 \strokec6 addEventListener\cf2 \strokec9 (\cf2 \strokec11 'change'\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec6 event\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec9 =>\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                \cf2 \strokec13 if\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec6 isSpinning\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                    \cf2 \strokec13 if\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec6 currentPhrases \cf2 \strokec9 ===\cf2 \strokec6  chineseQuotes\cf2 \strokec9 )\cf2 \strokec6  event\cf2 \strokec9 .\cf2 \strokec6 target\cf2 \strokec9 .\cf2 \strokec6 value \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 'chinese'\cf2 \strokec9 ;\cf2 \strokec6 \
+                    \cf2 \strokec13 else\cf2 \strokec6  \cf2 \strokec13 if\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec6 currentPhrases \cf2 \strokec9 ===\cf2 \strokec6  englishBlessings\cf2 \strokec9 )\cf2 \strokec6  event\cf2 \strokec9 .\cf2 \strokec6 target\cf2 \strokec9 .\cf2 \strokec6 value \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 'english'\cf2 \strokec9 ;\cf2 \strokec6 \
+                    \cf2 \strokec13 else\cf2 \strokec6  event\cf2 \strokec9 .\cf2 \strokec6 target\cf2 \strokec9 .\cf2 \strokec6 value \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 'taiwanese'\cf2 \strokec9 ;\cf2 \strokec6 \
+                    console\cf2 \strokec9 .\cf2 \strokec6 log\cf2 \strokec9 (\cf2 \strokec11 "\uc0\u35531 \u31561 \u24453 \u36681 \u30436 \u20572 \u27490 \u24460 \u20877 \u20999 \u25563 \u35486 \u35328 \u12290 "\cf2 \strokec9 );\cf2 \strokec6 \
+                    \cf2 \strokec13 return\cf2 \strokec9 ;\cf2 \strokec6 \
+                \cf2 \strokec9 \}\cf2 \strokec6 \
+                \
+                \cf2 \strokec13 if\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec6 event\cf2 \strokec9 .\cf2 \strokec6 target\cf2 \strokec9 .\cf2 \strokec6 value \cf2 \strokec9 ===\cf2 \strokec6  \cf2 \strokec11 'chinese'\cf2 \strokec9 )\cf2 \strokec6  currentPhrases \cf2 \strokec9 =\cf2 \strokec6  chineseQuotes\cf2 \strokec9 ;\cf2 \strokec6 \
+                \cf2 \strokec13 else\cf2 \strokec6  \cf2 \strokec13 if\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec6 event\cf2 \strokec9 .\cf2 \strokec6 target\cf2 \strokec9 .\cf2 \strokec6 value \cf2 \strokec9 ===\cf2 \strokec6  \cf2 \strokec11 'english'\cf2 \strokec9 )\cf2 \strokec6  currentPhrases \cf2 \strokec9 =\cf2 \strokec6  englishBlessings\cf2 \strokec9 ;\cf2 \strokec6 \
+                \cf2 \strokec13 else\cf2 \strokec6  \cf2 \strokec13 if\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec6 event\cf2 \strokec9 .\cf2 \strokec6 target\cf2 \strokec9 .\cf2 \strokec6 value \cf2 \strokec9 ===\cf2 \strokec6  \cf2 \strokec11 'taiwanese'\cf2 \strokec9 )\cf2 \strokec6  currentPhrases \cf2 \strokec9 =\cf2 \strokec6  taiwaneseBlessings\cf2 \strokec9 ;\cf2 \strokec6 \
+                \
+                resultCard\cf2 \strokec9 .\cf2 \strokec6 style\cf2 \strokec9 .\cf2 \strokec6 display \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 'none'\cf2 \strokec9 ;\cf2 \strokec6 \
+                analyzeButtonContainer\cf2 \strokec9 .\cf2 \strokec6 style\cf2 \strokec9 .\cf2 \strokec6 display \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 'none'\cf2 \strokec9 ;\cf2 \strokec6 \
+                currentDisplayedBlessing \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 ""\cf2 \strokec9 ;\cf2 \strokec6 \
+                drawWheel\cf2 \strokec9 ();\cf2 \strokec6 \
+            \cf2 \strokec9 \});\cf2 \strokec6 \
+\
+            wheelCanvas\cf2 \strokec9 .\cf2 \strokec6 addEventListener\cf2 \strokec9 (\cf2 \strokec11 'click'\cf2 \strokec9 ,\cf2 \strokec6  spinWheel\cf2 \strokec9 );\cf2 \strokec6 \
+\
+            \cf2 \strokec13 const\cf2 \strokec6  \cf2 \strokec16 API_KEY\cf2 \strokec6  \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 ""\cf2 \strokec9 ;\cf2 \strokec6  \
+\
+            \cf2 \strokec13 async\cf2 \strokec6  \cf2 \strokec13 function\cf2 \strokec6  callGeminiAPI\cf2 \strokec9 (\cf2 \strokec6 prompt\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                \cf2 \strokec13 const\cf2 \strokec6  apiUrl \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=\cf2 \strokec9 $\{\cf2 \strokec16 API_KEY\cf2 \strokec9 \}\cf2 \strokec11 `\cf2 \strokec9 ;\cf2 \strokec6 \
+                \cf2 \strokec13 const\cf2 \strokec6  payload \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                    contents\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec9 [\{\cf2 \strokec6  role\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 "user"\cf2 \strokec9 ,\cf2 \strokec6  parts\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec9 [\{\cf2 \strokec6  text\cf2 \strokec9 :\cf2 \strokec6  prompt \cf2 \strokec9 \}]\cf2 \strokec6  \cf2 \strokec9 \}]\cf2 \strokec6 \
+                \cf2 \strokec9 \};\cf2 \strokec6 \
+\
+                \cf2 \strokec13 try\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                    \cf2 \strokec13 const\cf2 \strokec6  response \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec13 await\cf2 \strokec6  fetch\cf2 \strokec9 (\cf2 \strokec6 apiUrl\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                        method\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 'POST'\cf2 \strokec9 ,\cf2 \strokec6 \
+                        headers\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec11 'Content-Type'\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec11 'application/json'\cf2 \strokec6  \cf2 \strokec9 \},\cf2 \strokec6 \
+                        body\cf2 \strokec9 :\cf2 \strokec6  \cf2 \strokec16 JSON\cf2 \strokec9 .\cf2 \strokec6 stringify\cf2 \strokec9 (\cf2 \strokec6 payload\cf2 \strokec9 )\cf2 \strokec6 \
+                    \cf2 \strokec9 \});\cf2 \strokec6 \
+                    \cf2 \strokec13 if\cf2 \strokec6  \cf2 \strokec9 (!\cf2 \strokec6 response\cf2 \strokec9 .\cf2 \strokec6 ok\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                        \cf2 \strokec13 const\cf2 \strokec6  errorData \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec13 await\cf2 \strokec6  response\cf2 \strokec9 .\cf2 \strokec6 json\cf2 \strokec9 ();\cf2 \strokec6 \
+                        console\cf2 \strokec9 .\cf2 \strokec6 error\cf2 \strokec9 (\cf2 \strokec11 "Gemini API Error:"\cf2 \strokec9 ,\cf2 \strokec6  errorData\cf2 \strokec9 );\cf2 \strokec6 \
+                        \cf2 \strokec13 throw\cf2 \strokec6  \cf2 \strokec13 new\cf2 \strokec6  \cf2 \strokec16 Error\cf2 \strokec9 (\cf2 \strokec11 `API\uc0\u35531 \u27714 \u22833 \u25943 \u65292 \u29376 \u24907 \u30908 \u65306 \cf2 \strokec9 $\{\cf2 \strokec6 response\cf2 \strokec9 .\cf2 \strokec6 status\cf2 \strokec9 \}\cf2 \strokec11 `\cf2 \strokec9 );\cf2 \strokec6 \
+                    \cf2 \strokec9 \}\cf2 \strokec6 \
+                    \cf2 \strokec13 const\cf2 \strokec6  result \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec13 await\cf2 \strokec6  response\cf2 \strokec9 .\cf2 \strokec6 json\cf2 \strokec9 ();\cf2 \strokec6 \
+                    \cf2 \strokec13 if\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec6 result\cf2 \strokec9 .\cf2 \strokec6 candidates \cf2 \strokec9 &&\cf2 \strokec6  result\cf2 \strokec9 .\cf2 \strokec6 candidates\cf2 \strokec9 .\cf2 \strokec6 length \cf2 \strokec9 >\cf2 \strokec6  \cf2 \strokec15 0\cf2 \strokec6  \cf2 \strokec9 &&\cf2 \strokec6 \
+                        result\cf2 \strokec9 .\cf2 \strokec6 candidates\cf2 \strokec9 [\cf2 \strokec15 0\cf2 \strokec9 ].\cf2 \strokec6 content \cf2 \strokec9 &&\cf2 \strokec6  result\cf2 \strokec9 .\cf2 \strokec6 candidates\cf2 \strokec9 [\cf2 \strokec15 0\cf2 \strokec9 ].\cf2 \strokec6 content\cf2 \strokec9 .\cf2 \strokec6 parts \cf2 \strokec9 &&\cf2 \strokec6 \
+                        result\cf2 \strokec9 .\cf2 \strokec6 candidates\cf2 \strokec9 [\cf2 \strokec15 0\cf2 \strokec9 ].\cf2 \strokec6 content\cf2 \strokec9 .\cf2 \strokec6 parts\cf2 \strokec9 .\cf2 \strokec6 length \cf2 \strokec9 >\cf2 \strokec6  \cf2 \strokec15 0\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                        \cf2 \strokec13 return\cf2 \strokec6  result\cf2 \strokec9 .\cf2 \strokec6 candidates\cf2 \strokec9 [\cf2 \strokec15 0\cf2 \strokec9 ].\cf2 \strokec6 content\cf2 \strokec9 .\cf2 \strokec6 parts\cf2 \strokec9 [\cf2 \strokec15 0\cf2 \strokec9 ].\cf2 \strokec6 text\cf2 \strokec9 ;\cf2 \strokec6 \
+                    \cf2 \strokec9 \}\cf2 \strokec6  \cf2 \strokec13 else\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                        console\cf2 \strokec9 .\cf2 \strokec6 error\cf2 \strokec9 (\cf2 \strokec11 "Gemini API \uc0\u22238 \u25033 \u26684 \u24335 \u19981 \u31526 \u38928 \u26399 :"\cf2 \strokec9 ,\cf2 \strokec6  result\cf2 \strokec9 );\cf2 \strokec6 \
+                        \cf2 \strokec13 throw\cf2 \strokec6  \cf2 \strokec13 new\cf2 \strokec6  \cf2 \strokec16 Error\cf2 \strokec9 (\cf2 \strokec11 "\uc0\u28961 \u27861 \u24478 API\u22238 \u25033 \u20013 \u29554 \u21462 \u25991 \u26412 \u12290 "\cf2 \strokec9 );\cf2 \strokec6 \
+                    \cf2 \strokec9 \}\cf2 \strokec6 \
+                \cf2 \strokec9 \}\cf2 \strokec6  \cf2 \strokec13 catch\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec6 error\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                    console\cf2 \strokec9 .\cf2 \strokec6 error\cf2 \strokec9 (\cf2 \strokec11 "\uc0\u21628 \u21483  Gemini API \u26178 \u30332 \u29983 \u37679 \u35492 :"\cf2 \strokec9 ,\cf2 \strokec6  error\cf2 \strokec9 );\cf2 \strokec6 \
+                    \cf2 \strokec13 return\cf2 \strokec6  \cf2 \strokec13 null\cf2 \strokec9 ;\cf2 \strokec6 \
+                \cf2 \strokec9 \}\cf2 \strokec6 \
+            \cf2 \strokec9 \}\cf2 \strokec6 \
+\
+            analyzeBlessingBtn\cf2 \strokec9 .\cf2 \strokec6 addEventListener\cf2 \strokec9 (\cf2 \strokec11 'click'\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec13 async\cf2 \strokec6  \cf2 \strokec9 ()\cf2 \strokec6  \cf2 \strokec9 =>\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                \cf2 \strokec13 if\cf2 \strokec6  \cf2 \strokec9 (!\cf2 \strokec6 currentDisplayedBlessing\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec13 return\cf2 \strokec9 ;\cf2 \strokec6 \
+\
+                analyzerLoading\cf2 \strokec9 .\cf2 \strokec6 style\cf2 \strokec9 .\cf2 \strokec6 display \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 'block'\cf2 \strokec9 ;\cf2 \strokec6  \
+                analyzeBlessingBtn\cf2 \strokec9 .\cf2 \strokec6 disabled \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec13 true\cf2 \strokec9 ;\cf2 \strokec6 \
+\
+                \cf2 \strokec13 const\cf2 \strokec6  selectedLanguage \cf2 \strokec9 =\cf2 \strokec6  languageSelector\cf2 \strokec9 .\cf2 \strokec6 value\cf2 \strokec9 ;\cf2 \strokec6 \
+                \cf2 \strokec13 let\cf2 \strokec6  prompt \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 ""\cf2 \strokec9 ;\cf2 \strokec6 \
+                \cf2 \strokec13 if\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec6 selectedLanguage \cf2 \strokec9 ===\cf2 \strokec6  \cf2 \strokec11 'chinese'\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                    prompt \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 `\uc0\u35531 \u29992 1-2\u21477 \u20013 \u25991 \u31777 \u35201 \u35299 \u37323 \u36889 \u21477 \u30050 \u26989 \u31069 \u31119 \u35486 \u30340 \u21547 \u32681 \u25110 \u24341 \u30003 \u32681 \u65292 \u20351 \u20854 \u26356 \u26131 \u25026 \u21644 \u40723 \u33310 \u20154 \u24515 \u65306  "\cf2 \strokec9 $\{\cf2 \strokec6 currentDisplayedBlessing\cf2 \strokec9 \}\cf2 \strokec11 "`\cf2 \strokec9 ;\cf2 \strokec6 \
+                \cf2 \strokec9 \}\cf2 \strokec6  \cf2 \strokec13 else\cf2 \strokec6  \cf2 \strokec13 if\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec6 selectedLanguage \cf2 \strokec9 ===\cf2 \strokec6  \cf2 \strokec11 'english'\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                    prompt \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 `Briefly explain the meaning or deeper implication of this graduation blessing in English (1-2 sentences), making it more understandable and inspiring: "\cf2 \strokec9 $\{\cf2 \strokec6 currentDisplayedBlessing\cf2 \strokec9 \}\cf2 \strokec11 "`\cf2 \strokec9 ;\cf2 \strokec6 \
+                \cf2 \strokec9 \}\cf2 \strokec6  \cf2 \strokec13 else\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6  \cf2 \strokec12 // taiwanese\cf2 \strokec6 \
+                    prompt \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 `\uc0\u35531 \u29992 1-2\u21477 \u21488 \u35486 \u28450 \u23383 \u31777 \u21934 \u35498 \u26126 \u36889 \u21477 \u30050 \u26989 \u31069 \u31119 \u35486 \u30340 \u24847 \u24605 \u65292 \u20104 \u20234 \u32893 \u36215 \u20358 \u38307 \u36611 \u26377 \u24847 \u24605 \u20334 \u40723 \u21237 \u24615 \u65306  "\cf2 \strokec9 $\{\cf2 \strokec6 currentDisplayedBlessing\cf2 \strokec9 \}\cf2 \strokec11 "`\cf2 \strokec9 ;\cf2 \strokec6 \
+                \cf2 \strokec9 \}\cf2 \strokec6 \
+\
+                \cf2 \strokec13 const\cf2 \strokec6  analysisResult \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec13 await\cf2 \strokec6  callGeminiAPI\cf2 \strokec9 (\cf2 \strokec6 prompt\cf2 \strokec9 );\cf2 \strokec6 \
+                analyzerLoading\cf2 \strokec9 .\cf2 \strokec6 style\cf2 \strokec9 .\cf2 \strokec6 display \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 'none'\cf2 \strokec9 ;\cf2 \strokec6  \
+                analyzeBlessingBtn\cf2 \strokec9 .\cf2 \strokec6 disabled \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec13 false\cf2 \strokec9 ;\cf2 \strokec6 \
+\
+                \cf2 \strokec13 if\cf2 \strokec6  \cf2 \strokec9 (\cf2 \strokec6 analysisResult\cf2 \strokec9 )\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                    analysisText\cf2 \strokec9 .\cf2 \strokec6 textContent \cf2 \strokec9 =\cf2 \strokec6  analysisResult\cf2 \strokec9 ;\cf2 \strokec6 \
+                \cf2 \strokec9 \}\cf2 \strokec6  \cf2 \strokec13 else\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                    analysisText\cf2 \strokec9 .\cf2 \strokec6 textContent \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 "\uc0\u25265 \u27465 \u65292 \u30446 \u21069 \u28961 \u27861 \u35299 \u26512 \u27492 \u31069 \u31119 \u35486 \u65292 \u35531 \u31245 \u24460 \u20877 \u35430 \u12290 "\cf2 \strokec9 ;\cf2 \strokec6 \
+                \cf2 \strokec9 \}\cf2 \strokec6 \
+                analysisModal\cf2 \strokec9 .\cf2 \strokec6 style\cf2 \strokec9 .\cf2 \strokec6 display \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 'flex'\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec9 \});\cf2 \strokec6 \
+\
+            closeModalBtn\cf2 \strokec9 .\cf2 \strokec6 addEventListener\cf2 \strokec9 (\cf2 \strokec11 'click'\cf2 \strokec9 ,\cf2 \strokec6  \cf2 \strokec9 ()\cf2 \strokec6  \cf2 \strokec9 =>\cf2 \strokec6  \cf2 \strokec9 \{\cf2 \strokec6 \
+                analysisModal\cf2 \strokec9 .\cf2 \strokec6 style\cf2 \strokec9 .\cf2 \strokec6 display \cf2 \strokec9 =\cf2 \strokec6  \cf2 \strokec11 'none'\cf2 \strokec9 ;\cf2 \strokec6 \
+            \cf2 \strokec9 \});\cf2 \strokec6 \
+\
+            drawWheel\cf2 \strokec9 ();\cf2 \strokec6 \
+        \cf2 \strokec9 \});\cf2 \strokec6 \
+    \cf2 \strokec7 </\cf2 \strokec4 script\cf2 \strokec7 >\cf2 \strokec6 \
+\cf2 \strokec7 </\cf2 \strokec4 body\cf2 \strokec7 >\cf2 \strokec6 \
+\cf2 \strokec7 </\cf2 \strokec4 html\cf2 \strokec7 >\cf2 \strokec6 \
+\
+}
